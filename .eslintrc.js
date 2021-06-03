@@ -1,10 +1,6 @@
 module.exports = {
   env: {
     browser: true,
-    es2020: true,
-  },
-  parserOptions: {
-    ecmaVersion: 11,
   },
   rules: {
     // Don't enforce block scope on "var" variable declarations, let JS behave as intended.
