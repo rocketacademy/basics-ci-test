@@ -1,8 +1,8 @@
 var main = function (input) {
   var myOutputValue = "hello world" + input;
-  return myOutputValue;
+    return myOutputValue;
 };
 
-function foobaar(){
+function myFaultyFunctionn(){
   return;
 }
