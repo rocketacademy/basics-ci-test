@@ -1,6 +1,7 @@
 var main = function (input) {
-  var myOutputValue = "hello world" + input;
-    return myOutputValue;
+  console.log( input );
+  var myOutputValue = "something wow hello world" + input;
+      return myOutputValue;
 };
 
 function myFaultyFunctionn(){
