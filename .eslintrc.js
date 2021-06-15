@@ -2,6 +2,11 @@ module.exports = {
   env: {
     browser: true,
   },
+  extends: [
+    "airbnb-base",
+    "plugin:sonarjs/recommended"
+  ],
+  plugins: ["sonarjs"]
   rules: {
     // Don't enforce block scope on "var" variable declarations, let JS behave as intended.
     'block-scoped-var': 'off',
@@ -35,3 +40,6 @@ module.exports = {
     'vars-on-top': 'off',
   },
 };
+
+
+
