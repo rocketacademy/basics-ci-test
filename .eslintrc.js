@@ -6,7 +6,7 @@ module.exports = {
     "airbnb-base",
     "plugin:sonarjs/recommended"
   ],
-  plugins: ["sonarjs"]
+  plugins: ["sonarjs"],
   rules: {
     // Don't enforce block scope on "var" variable declarations, let JS behave as intended.
     'block-scoped-var': 'off',
